@@ -1,1 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    font-family: 'Xanh Mono', monospace;
+    color: white;
+    background-color: #0d1117;
+}

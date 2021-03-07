@@ -12,6 +12,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HomeTextComponent } from './components/home-text/home-text.component';
 import { AboutTextComponent } from './components/about-text/about-text.component';
 import { ContactTextComponent } from './components/contact-text/contact-text.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ContactTextComponent } from './components/contact-text/contact-text.com
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]
