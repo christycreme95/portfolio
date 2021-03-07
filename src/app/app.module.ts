@@ -13,6 +13,7 @@ import { HomeTextComponent } from './components/home-text/home-text.component';
 import { AboutTextComponent } from './components/about-text/about-text.component';
 import { ContactTextComponent } from './components/contact-text/contact-text.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { HeroImgComponent } from './components/hero-img/hero-img.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     FooterComponent,
     HomeTextComponent,
     AboutTextComponent,
-    ContactTextComponent
+    ContactTextComponent,
+    HeroImgComponent
   ],
   imports: [
     BrowserModule,

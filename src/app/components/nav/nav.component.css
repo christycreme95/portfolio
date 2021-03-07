@@ -1,0 +1,17 @@
+.no{
+    text-decoration: underline;
+}
+.no:hover{
+    color: white !important;
+}
+.nav-link{
+    color:white;
+    font-size: 20px;
+}
+.nav-link:hover{
+    color: #D1F5FF;
+    text-decoration: underline;
+}
+.bg{
+    background-color: #141c2688;
+}
