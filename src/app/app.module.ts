@@ -11,7 +11,6 @@ import { NavComponent } from './components/nav/nav.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeTextComponent } from './components/home-text/home-text.component';
 import { AboutTextComponent } from './components/about-text/about-text.component';
-import { ContactTextComponent } from './components/contact-text/contact-text.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeroImgComponent } from './components/hero-img/hero-img.component';
 
@@ -26,7 +25,6 @@ import { HeroImgComponent } from './components/hero-img/hero-img.component';
     FooterComponent,
     HomeTextComponent,
     AboutTextComponent,
-    ContactTextComponent,
     HeroImgComponent
   ],
   imports: [
