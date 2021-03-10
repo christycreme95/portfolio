@@ -10,10 +10,13 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
   
 })
 export class NavComponent implements OnInit {
-
+  isNavCollapsed = true;
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  collapse():void{
+    this.isNavCollapsed = !this.isNavCollapsed;
+  }
 }

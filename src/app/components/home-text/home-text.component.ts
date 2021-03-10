@@ -6,10 +6,33 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-text.component.css']
 })
 export class HomeTextComponent implements OnInit {
-
+  name: string = '';
+  i = 0;
+  
   constructor() { }
 
+  nameArr = [
+    '',
+    'a Web Designer', 
+    'a Musician', 
+    'a Foodie', 
+    'a Not So Great Athlete',
+    'an Anime Lover', 
+    'an ESTP', 
+    'a Woman', 
+    'a Full Stack Fiend', 
+    'a Lover of Puns',  
+  ];
+
   ngOnInit(): void {
+    this.cycleText()
   }
+
+  cycleText(){
+    this.name = this.nameArr[this.i];
+    this.i = ++this.i % this.nameArr.length;
+    setTimeout(() =>this.cycleText(), 2500)
+  }
+
 
 }
