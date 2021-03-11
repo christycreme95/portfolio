@@ -1,0 +1,10 @@
+.x{
+    font-size: 3rem;
+}
+.ar{
+    display:flex;
+    justify-content: space-around;
+}
+/* .adobexd{
+    background-image: url(../../../assets/images/adobexd70.png);
+} */
