@@ -20,7 +20,7 @@ export class HomeTextComponent implements OnInit {
     'an Anime Lover', 
     'an ESTP', 
     'a Woman', 
-    'a Full Stack Fiend', 
+    'a Front End Fiend', 
     'a Lover of Puns',  
   ];
 
