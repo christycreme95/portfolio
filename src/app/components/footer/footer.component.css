@@ -14,3 +14,12 @@
 .bee{
     border-top: 1px solid white;
 }
+.codewars{
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../assets/images/codewarslogo.png);
+}
+
+.codewars:hover{
+    background-image: url(../../../assets/images/codewarsBlue.png);
+}

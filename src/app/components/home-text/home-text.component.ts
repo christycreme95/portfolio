@@ -19,9 +19,10 @@ export class HomeTextComponent implements OnInit {
     'a Not So Great Athlete',
     'an Anime Lover', 
     'an ESTP', 
-    'a Woman', 
+    'a Cambodian Woman', 
     'a Front End Fiend', 
-    'a Lover of Puns',  
+    'a Lover of Puns',
+    'an Animal Lover'
   ];
 
   ngOnInit(): void {
