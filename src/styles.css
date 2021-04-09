@@ -1,9 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
 body{
+    background-color: #0d1117;
+    /* #141c2688 */
+    /* background: linear-gradient(132deg #ec5118cb, #1665c1);
+    background-size: 400% 400%;
+    animation: BackgroundGradient 30s ease infinite; */
     font-family: 'Xanh Mono', monospace;
     color: white;
-    background-color: #0d1117;
 }
+/* @keyframes BackgroundGradient{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
 .center{
     display: flex;
     justify-content: center;
