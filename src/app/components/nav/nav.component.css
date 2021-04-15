@@ -1,5 +1,6 @@
 .no:hover{
     color: white !important;
+    text-decoration: none !important;
 }
 .nav-link{
     color:white;
