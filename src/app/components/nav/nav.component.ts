@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
+import { Router } from '@angular/router';
 // import {NgbdDropdownBasicModule} from './app/dropdown-basic.module';
 
 @Component({
@@ -11,9 +12,15 @@ import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 })
 export class NavComponent implements OnInit {
   isNavCollapsed = true;
-  constructor() { }
+  home: boolean = false;
+  about: boolean = false;
+  project: boolean = false;
+  contact: boolean = false;
+
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
+    
   }
 
   collapse():void{
