@@ -1,1 +1,20 @@
-<h1 class="center mt-5">Under Construction</h1>
+<h1 class="center mt-5">Christy's Projects</h1>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4 stretch" *ngFor="let proj of projects">
+            <div class="projBox p-3 my-3 rounded">
+                <a class="text-decoration-none text-light" target="_blank" href="{{proj.src}}">
+                <img src={{proj.picture}} class="img-fluid" alt="Christy's Project {{proj.name}}">
+                
+                    <br>
+                    <h2 class="mt-2">{{proj.name}}</h2>
+                    <p class="pb-3">{{proj.description}}</p>
+                    <small style="position: absolute; bottom: 30px; color: rgb(0, 255, 255);">{{proj.keywords}}</small>
+                </a>
+                
+            </div>
+
+        </div>
+    </div>
+</div>

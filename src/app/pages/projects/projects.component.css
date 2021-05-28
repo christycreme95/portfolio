@@ -1,0 +1,9 @@
+.projBox{
+    background-color: #616161;
+    box-shadow: 5px 5px 10px rgba(56, 56, 56, 0.226);
+    border: #616161 1px solid;
+}
+.projBox:hover{
+    background-color: #0d1117;
+    border: rgb(0, 15, 97) 1px solid;
+}
