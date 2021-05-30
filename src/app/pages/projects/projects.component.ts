@@ -13,26 +13,31 @@ export class ProjectsComponent implements OnInit {
        picture: '../../../assets/images/proj/mayorStockton.png', 
        description: 'Built and launched the official site of the mayor of Stockton.', 
        src: 'https://www.stocktonmayor.org', 
-       keywords: "design, build, html, css, bootstrap"
+       keywords: "internship, design, build, html, css, bootstrap"
       },
-
+      {
+        name:'Teachers College Of Education', picture: '../../../assets/images/proj/tcsj.jpg', description: 'Updating the homepage, programs, and masters pages of TCSJ', src: '', keywords: 'internship, design, adobe XD, html, css, bootstrap'
+       },
      {
        name:'Triton', 
-       picture: '', 
-       description: 'In Progress: Full stack mobile app to keep track of your pets!', 
-       src: '', 
-       keywords: " build, teamwork, ionic, angular, scss, bootstrap"
+       picture: '../../../assets/images/proj/tritonsample.jpg', 
+       description: 'In Progress: Full stack mobile app to keep track of your pets! Has not been launched yet, click for prototype!', 
+       src: 'https://xd.adobe.com/view/b948009e-11bb-40db-8702-8787478f8eef-ec1b/', 
+       keywords: " build, design, ionic, angular, scss, teamwork"
       },
      {
        name:'Amor Kombucha', 
-       picture: '', 
-       description: 'Local Business Design of Amor Kombuchas Website.', 
+       picture: '../../../assets/images/proj/amorKombucha.jpg', 
+       description: 'Local Business Design and Build of Amor Kombuchas Website.', 
        src: 'https://www.eang.dev/amor', 
-       keywords: "design, build, html, css, javascript, bootstrap"
+       keywords: "design, build, html, css, bootstrap, teamwork"
       },
-     {
-       name:'', picture: '', description: '', src: '', keywords: ""
-      },
+      {
+        name:'', picture: '', description: '', src: '', keywords: ""
+       },
+       {
+        name:'Hamster Hotel', picture: '../../../assets/images/proj/hamsterHotel.jpg', description: 'Complete recreation of a beautiful site to show my talent in responsive design.', src: '', keywords: 'html, css, bootstrap, my first project'
+       },
 
    ];
   constructor() { }
