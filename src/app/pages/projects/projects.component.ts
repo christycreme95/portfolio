@@ -33,7 +33,7 @@ export class ProjectsComponent implements OnInit {
        keywords: "design, build, html, css, bootstrap, teamwork"
       },
       {
-        name:'', picture: '', description: '', src: '', keywords: ""
+        name:'Weather App', picture: '../../../assets/images/proj/weather.jpg', description: 'Learning how to pull from an api using another persons design', src: 'http://christystesterthing.azurewebsites.net/weatherAPI/', keywords: 'api, javascript, local storage'
        },
        {
         name:'Hamster Hotel', picture: '../../../assets/images/proj/hamsterHotel.jpg', description: 'Complete recreation of a beautiful site to show my talent in responsive design.', src: '', keywords: 'html, css, bootstrap, my first project'
