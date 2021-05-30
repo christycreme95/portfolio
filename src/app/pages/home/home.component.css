@@ -5,3 +5,15 @@
     font-size: 50px;
 }
 
+
+@media only screen and (max-width: 420px) {
+    .myFace{
+        width: 300px;
+        height: auto;
+    }
+}
+/* @media only screen and (min-width: 420px){
+    .myFace{
+
+    }
+} */
