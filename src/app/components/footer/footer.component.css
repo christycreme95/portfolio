@@ -14,7 +14,10 @@
 }
 .bee{
     border-top: 1px solid white;
-    position: relative;
+    /* position: absolute; */
+    /* bottom: 0; */
+    height:100px;
+    background-color: #0d1117;
 }
 .codewars{
     width: 30px;
