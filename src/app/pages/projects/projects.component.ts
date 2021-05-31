@@ -16,7 +16,7 @@ export class ProjectsComponent implements OnInit {
        keywords: "internship, design, build, html, css, bootstrap"
       },
       {
-        name:'Teachers College Of Education', picture: '../../../assets/images/proj/tcsj.jpg', description: 'Updating the homepage, programs, and masters pages of TCSJ', src: '', keywords: 'internship, design, adobe XD, html, css, bootstrap'
+        name:'Teachers College Of Education', picture: '../../../assets/images/proj/tcsj.jpg', description: 'Updating the homepage, programs, and masters pages of TCSJ', src: 'https://teacherscollegesj.edu/', keywords: 'internship, design, adobe XD, html, css, bootstrap'
        },
      {
        name:'Triton', 
@@ -36,7 +36,7 @@ export class ProjectsComponent implements OnInit {
         name:'Weather App', picture: '../../../assets/images/proj/weather.jpg', description: 'Learning how to pull from an api using another persons design', src: 'http://christystesterthing.azurewebsites.net/weatherAPI/', keywords: 'api, javascript, local storage'
        },
        {
-        name:'Hamster Hotel', picture: '../../../assets/images/proj/hamsterHotel.jpg', description: 'Complete recreation of a beautiful site to show my talent in responsive design.', src: '', keywords: 'html, css, bootstrap, my first project'
+        name:'Hamster Hotel', picture: '../../../assets/images/proj/hamsterHotel.jpg', description: 'Complete recreation of a beautiful site to show my talent in responsive design.', src: 'https://www.eang.dev/hamster', keywords: 'html, css, bootstrap, my first project'
        },
 
    ];
