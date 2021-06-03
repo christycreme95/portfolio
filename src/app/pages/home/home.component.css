@@ -1,5 +1,5 @@
 .bg{
-    background-color: #000000;
+    background: linear-gradient(#000000, #0d1117);
 }
 .fontbig{
     font-size: 50px;
@@ -16,4 +16,14 @@
     .myFace{
 
     }
+} */
+.x{
+    font-size: 3rem;
+}
+.ar{
+    display:flex;
+    justify-content: space-around;
+}
+/* .adobexd{
+    background-image: url(../../../assets/images/adobexd70.png);
 } */

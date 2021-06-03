@@ -31,3 +31,8 @@ body{
     display: flex;
     justify-content: stretch;
 }
+.btn-light:hover{
+    background: none;
+    border: white 1px solid;
+    color: white;
+}
