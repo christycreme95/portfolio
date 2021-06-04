@@ -13,7 +13,7 @@ export class HomeTextComponent implements OnInit {
 
   nameArr = [
     '',
-    'a Web Designer', 
+    'a Web Developer', 
     'a Musician', 
     'a Foodie', 
     'a Not So Great Athlete',
@@ -22,7 +22,8 @@ export class HomeTextComponent implements OnInit {
     'a Cambodian Woman', 
     'a Front End Fiend', 
     'a Lover of Puns',
-    'an Animal Lover'
+    'an Animal Lover',
+    'a Nerd',
   ];
 
   ngOnInit(): void {

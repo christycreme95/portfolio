@@ -1,4 +1,4 @@
-<h1 class="center mt-5">Christy's Projects</h1>
+<h1 class="center mt-5 pt-lg-5">Christy's Projects</h1>
 
 <div class="container">
     <div class="row mb-4">
@@ -6,9 +6,7 @@
             <div class="hover projBox p-3 my-3 rounded">
                 <a class="text-decoration-none text-light" target="_blank" href="{{proj.src}}">
                 <img src={{proj.picture}} class="img-fluid" alt="Christy's Project {{proj.name}}">
-                
                     <br>
-
                     <h2 class="mt-2"><u>{{proj.name}}</u></h2>
                     <p class="pb-4">{{proj.description}}</p>
                     <p style="color: rgb(0, 255, 255); position: absolute; bottom: 15px; font-size: 12px;" class="pr-4">{{proj.keywords}}</p>
@@ -19,4 +17,22 @@
         </div>
     </div>
 </div>
+
+
+<ng-template #content let-modal>
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
+      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body">
+        
+    </div>
+    <!-- <div class="modal-footer"> -->
+      <!-- <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button> -->
+    <!-- </div> -->
+  </ng-template>
+  
+  <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button>
 <app-footer></app-footer>
