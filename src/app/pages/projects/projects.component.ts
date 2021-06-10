@@ -58,7 +58,7 @@ export class ProjectsComponent implements OnInit {
        pic2: '../../../assets/images/proj/weather2.jpg',
         picture: '../../../assets/images/proj/weather.jpg', 
         description: 'Learning how to pull from an api using another persons design', 
-        src: 'http://christystesterthing.azurewebsites.net/weatherAPI/', 
+        src: 'https://christystesterthing.azurewebsites.net/weatherAPI/', 
         keywords: 'api, javascript, local storage',
         long: 'This app was created to learn how to pull from a weather api. In a 3 day sprint, we created an HTML, CSS, JavaScript application that pulled from an api, used local storage, and a search function. I was tasked to use someone else\'s prototype to create this functioning app. If I were to change anything, I\'d have to go to the person who designed it for approval. With this, it had me experience having to deal with a client.'
        ,btn:'Weather App',
