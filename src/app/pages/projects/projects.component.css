@@ -25,3 +25,14 @@
     transform:scale(1.07,1.07);
     transition-duration: .4s;
 }
+.brightBlue{
+    color:rgb(0, 255, 255);
+}
+.icons{
+    color: #D1F5FF;
+    position: absolute;
+    bottom: 20px;
+}
+.icons:hover{
+    color: white;
+}
