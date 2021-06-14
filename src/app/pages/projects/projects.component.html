@@ -3,13 +3,34 @@
 <div class="container">
     <div class="row mb-4">
         <div class="col-12 col-md-6 col-lg-4 stretch" *ngFor="let proj of projects">
-            <div class="hover projBox p-3 my-3 rounded">
-                <a class="text-decoration-none text-light" target="_blank" href="{{proj.src}}">
+
+          <ng-template #content let-modal>
+            <div class="blue-bg modal-header">
+              <h4>{{this.proj.name}}</h4>
+              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span class="white" aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="blue-bg modal-body">
+              <img src="{{proj.pic2}}" class="img-fluid mb-3" alt="A Picture from Christy's Project {{proj.name}}">
+
+                <p>{{proj.long}}</p>
+                <br>
+                <small class="brightBlue">{{proj.keywords}}</small>
+            </div>
+            <div class="blue-bg modal-footer">
+              <a type="button" class="btn btn-outline-light" href="{{proj.src}}" target="_blank">{{proj.btn}}</a>
+            </div>
+          </ng-template>
+
+          <div class="hover projBox p-3 my-3 rounded">
+                <a class="text-decoration-none text-light" target="_blank" (click)="open(content)">
                 <img src={{proj.picture}} class="img-fluid" alt="Christy's Project {{proj.name}}">
                     <br>
                     <h2 class="mt-2"><u>{{proj.name}}</u></h2>
                     <p class="pb-4">{{proj.description}}</p>
-                    <p style="color: rgb(0, 255, 255); position: absolute; bottom: 15px; font-size: 12px;" class="pr-4">{{proj.keywords}}</p>
+                    <!-- <p style="color: rgb(0, 255, 255); position: absolute; bottom: 15px; font-size: 12px;" class="pr-4">{{proj.keywords}}</p> -->
+                  <a alt="globe" target="_blank" href="{{proj.src}}"><i class="icons fas fa-globe fa-2x"></i></a>
                 </a>
                 
             </div>
@@ -19,20 +40,5 @@
 </div>
 
 
-<ng-template #content let-modal>
-    <div class="modal-header">
-      <h4 class="modal-title" id="modal-basic-title">Profile update</h4>
-      <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-        <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <div class="modal-body">
-        
-    </div>
-    <!-- <div class="modal-footer"> -->
-      <!-- <button type="button" class="btn btn-outline-dark" (click)="modal.close('Save click')">Close</button> -->
-    <!-- </div> -->
-  </ng-template>
   
-  <button class="btn btn-lg btn-outline-primary" (click)="open(content)">Launch demo modal</button>
 <app-footer></app-footer>

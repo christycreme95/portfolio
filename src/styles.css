@@ -38,3 +38,12 @@ body{
     border: white 1px solid;
     color: white;
 }
+.blue{
+    color:#0d1117;
+}
+.blue-bg{
+    background-color: #0d1117;
+}
+.white{
+    color:white;
+}
