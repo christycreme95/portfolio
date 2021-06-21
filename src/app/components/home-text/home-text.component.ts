@@ -24,6 +24,8 @@ export class HomeTextComponent implements OnInit {
     'a Lover of Puns',
     'an Animal Lover',
     'a Nerd',
+    'CodeStack Alumna',
+
   ];
 
   ngOnInit(): void {
