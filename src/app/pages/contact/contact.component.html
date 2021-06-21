@@ -1,10 +1,10 @@
-<div class="container-fluid marAdd">
+<div class="container mt-5 pt-lg-5 pb-5 mb-5">
     <div class="row">
-        <div class="col-12 text-center">
-            <h1 class="bigtxt">Have Questions? Comments? Need a Web Developer? <br/> Contact Christy!</h1>
+        <div class="col-12 mb-5 text-center">
+            <h1 class="bigtxt">Have Questions? Comments? Need a Web Developer? <br /> Contact Christy!</h1>
         </div>
     </div>
-    <div class="row my-5 down">
+    <!-- <div class="row my-5 down">
         <div class="col-lg-3 col-sm-6 center cardMar">
             <a class="card email p-2" target="_blank" href="mailto:christy@eang.dev">
                 <i class="center far fa-paper-plane iconSizing"></i>
@@ -26,10 +26,10 @@
         </div>
         <div class="col-lg-3 col-sm-6 center cardMar">
             <a class="card fb p-2" target="_blank" href='https://www.facebook.com/christycreme95'>
-                <i class="center fab fa-facebook iconSizing"></i>
+                <i class="center fab fa-linkedin-in iconSizing"></i>
                 <div class="card-body text-center">
-                    <h3 class="card-title">My Facebook!</h3>
-                    <p class="card-text">christycreme95</p>
+                    <h3 class="card-title">My LinkedIn!</h3>
+                    <p class="card-text">christyeang</p>
                 </div>
             </a>
         </div>
@@ -42,5 +42,42 @@
                 </div>
             </a>
         </div>
+    </div> -->
+    <div class="center border rounded mb-5 mb-md-3" style="background-color: rgba(255, 255, 255, 0.027);">
+
+        <form class="row contact py-5 px-4" [formGroup]="form" method="post" (ngSubmit)="onSubmit()">
+            <div class="col-12 col-md-6 mb-4">
+                <input class="form-control" [formControl]="name" required>
+                <span class="floating-label">Name</span>
+            </div>
+            <div class="col-12 col-md-6 mb-4">
+                <input class="form-control" [formControl]="email" required email>
+                <span class="floating-label">Email</span>
+                
+            </div>
+            <div class="col-12 mb-4">
+                <input class="form-control" [formControl]="subject" required>
+                <span class="floating-label">Subject</span>
+                
+            </div>
+            <div class="col-12">
+                <div class="textarea">
+                    <textarea class="form-control" [formControl]="message" maxlength="500" required></textarea>
+                    <!-- placeholder="I'm interested in..." -->
+                    <span class="floating-label">I'm Interested In...</span>
+                </div>
+                <small class="end">{{message.value?.length || 0}}/500</small>
+                <button [disabled]="isLoading" class="submit btn btn-light" type="submit">Submit</button>
+                <input [formControl]="honeypot" class="hidden" type="text" />
+                <div [ngClass]="!submitted ? 'hidden' : 'visible'" class="center-text">
+                    <span>{{responseMessage}}</span>
+                </div>
+
+            </div>
+        </form>
     </div>
+        
+        
+
 </div>
+<app-footer></app-footer>

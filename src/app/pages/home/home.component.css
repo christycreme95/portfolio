@@ -1,6 +1,52 @@
-.bg{
-    background-color: #000000;
-}
+/* .bg{
+    background: linear-gradient(#000000,10%, #0d1117);
+} */
 .fontbig{
     font-size: 50px;
 }
+.icons{
+    color:white;
+}
+.icons:hover{
+    color: #D1F5FF;
+}
+.codewars{
+    width: 30px;
+    height: 30px;
+    background-image: url(../../../assets/images/codewarslogo.png);
+}
+
+.codewars:hover{
+    background-image: url(../../../assets/images/codewarsBlue.png);
+}
+
+@media only screen and (max-width: 420px) {
+    .myFace{
+        width: 300px;
+        height: auto;
+    }
+}
+/* @media only screen and (min-width: 420px){
+    .myFace{
+
+    }
+} */
+.csa{
+    color: #D1F5FF;
+    /* text-decoration: dashed !important; */
+    text-decoration: underline;
+}
+.csa:hover{
+    color: white;
+    text-decoration: none;
+}
+.x{
+    font-size: 3rem;
+}
+.ar{
+    display:flex;
+    justify-content: space-around;
+}
+/* .adobexd{
+    background-image: url(../../../assets/images/adobexd70.png);
+} */

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -13,6 +12,10 @@ import { HomeTextComponent } from './components/home-text/home-text.component';
 import { AboutTextComponent } from './components/about-text/about-text.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeroImgComponent } from './components/hero-img/hero-img.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from "@angular/common/http";
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 
 @NgModule({
   declarations: [
@@ -30,7 +33,12 @@ import { HeroImgComponent } from './components/hero-img/hero-img.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    NoopAnimationsModule,
+    BrowserAnimationsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

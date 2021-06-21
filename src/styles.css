@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-    background-color: #0d1117;
+    background: linear-gradient(#000000,10%, #0d1117);
+    /* .bg{ */
+    /* } */
     /* #141c2688 */
     /* background: linear-gradient(132deg #ec5118cb, #1665c1);
     background-size: 400% 400%;
@@ -26,4 +28,22 @@ body{
 .end{
     display: flex;
     justify-content: flex-end;
+}
+.stretch{
+    display: flex;
+    justify-content: stretch;
+}
+.btn-light:hover{
+    background: none;
+    border: white 1px solid;
+    color: white;
+}
+.blue{
+    color:#0d1117;
+}
+.blue-bg{
+    background-color: #0d1117;
+}
+.white{
+    color:white;
 }
