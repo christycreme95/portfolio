@@ -18,9 +18,8 @@ export class ProjectsComponent implements OnInit {
        picture: '../../../assets/images/proj/mayorStockton.png', 
        description: 'Built and launched the official site of the mayor of Stockton from start to finish.', 
        src: 'https://www.stocktonmayor.org',
-       long: 'During her Internship with CodeStack - San Joaquin County Of Education, Christy used Adobe XD to design the majority of the page into a fully functioning prototype. After approval, she started working on building the site in HTML, CSS and the CSS framework, Bootstrap. During the process, she was able to pull information from the Mayor\'s Facebook account and implement outside news sources and external resources. During the build she was able to use Bootstrap components, and source control. Accessibility was extremely important to Christy so she made sure everything was up to par. Once the website was finished, she was given the opportunity to present this website to the mayor\'s office, and launched the site using FileZilla.',
-       keywords: "internship, design, build, html, css, bootstrap"
-       ,btn:'Mayor\'s Site',
+       long: 'During my Internship with CodeStack - San Joaquin County Of Education, I used Adobe XD to design the majority of the page into a fully functioning prototype. After approval, I started working on building the site in HTML, CSS and the CSS framework, Bootstrap. During the process, I was able to pull information from the Mayor\'s Facebook account and implement outside news sources and external resources. During the build I was able to use Bootstrap components, and source control. Accessibility is extremely important to me so I made sure everything was up to par. Once the website was finished, I was given the opportunity to present this website to the mayor\'s office, and launched the site using FileZilla.',
+       btn:'Mayor\'s Site',
       },
       {
         name:'Teachers College Of Education', 
@@ -30,7 +29,7 @@ export class ProjectsComponent implements OnInit {
         src: 'https://teacherscollegesj.edu/', 
         keywords: 'internship, design, adobe XD, html, css, bootstrap'
         ,btn:'TCSJ',
-        long: 'During her Internship with CodeStack - San Joaquin County Of Education, under the instruction of a UI/UX Specialist, Christy designed and built portions of the site such as the main home page\'s About Us, Programs, Events, and Contact Us. She used Bootstrap built in grid system to manipulate the page. She was also able to design and implement a whole new section in the Programs Section called Masters Advisors.  She used Adobe XD to prototype, received approval from the client, and started building. She used Bootstrap cards and modals to highlight each advisor\'s biography. She made sure to get things done in a timely manner and now is given more time sensitive projects.'
+        long: 'During my Internship with CodeStack - San Joaquin County Of Education, under the instruction of a UI/UX Specialist, I designed and built portions of the site such as the main home page\'s About Us, Programs, Events, and Contact Us. I used Bootstrap built in grid system to manipulate the page. I was also able to design and implement a whole new section in the Programs Section called Masters Advisors.  I used Adobe XD to prototype, received approval from the client, and started building. I used Bootstrap cards and modals to highlight each advisor\'s biography.'
        
       },
      {
@@ -41,7 +40,7 @@ export class ProjectsComponent implements OnInit {
        src: 'https://xd.adobe.com/view/b948009e-11bb-40db-8702-8787478f8eef-ec1b/', 
        keywords: "build, design, ionic, angular, scss, teamwork"
        ,btn:'Triton Prototype',
-      long:'Triton is a full stack mobile application built in Ionic, Angular, and SCSS. This app is being built by three developers, two of my colleagues from CodeStack Academy and myself. We used a mix of Bootstrap and Angular Material for the components design. We spent a couple of months building out a fully functioning prototype of the app and started the developing process in March of 2021. We took the initiative to learn Ionic from scratch and build the backend from what we already knew. I predominantly built the front end components and set up most of the routing in the app. I was able to use http get and http post from the database my colleagues built. We are still developing this app and it will be released to the Play Store by July 2021.',
+       long:'Triton is a full stack mobile application built in Ionic, Angular, and SCSS. This app is being built by three developers, two of my colleagues from CodeStack Academy and myself. We used a mix of Bootstrap and Angular Material for the components design. We spent a couple of months building out a fully functioning prototype of the app and started the developing process in March of 2021. We took the initiative to learn Ionic from scratch and build the backend from what we already knew. I predominantly built the front end components and set up most of the routing in the app. I was able to use http get and http post from the database my colleagues built. We are still developing this app and it will be released to the Play Store by July 2021.',
       },
      {
        name:'Amor Kombucha', 
