@@ -8,23 +8,24 @@ import { Component, OnInit } from '@angular/core';
 export class HomeTextComponent implements OnInit {
   name: string = '';
   i = 0;
-  
+
   constructor() { }
 
   nameArr = [
     '',
-    'a Web Developer', 
-    'a Musician', 
-    'a Foodie', 
+    'a Web Developer',
+    'a Musician',
+    'a Foodie',
     'a Not So Great Athlete',
-    'an Anime Lover', 
-    'an ESTP', 
-    'a Cambodian Woman', 
-    'a Front End Fiend', 
+    'an Anime Lover',
+    'an ESTP',
+    'a Cambodian Woman',
+    'a Front End Fiend',
     'a Lover of Puns',
     'an Animal Lover',
     'a Nerd',
     'CodeStack Alumna',
+    'Student Pilot'
 
   ];
 
@@ -35,8 +36,7 @@ export class HomeTextComponent implements OnInit {
   cycleText(){
     this.name = this.nameArr[this.i];
     this.i = ++this.i % this.nameArr.length;
-    setTimeout(() =>this.cycleText(), 2500)
+    setTimeout(() =>this.cycleText(), 2000)
   }
-
 
 }

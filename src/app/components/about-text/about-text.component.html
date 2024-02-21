@@ -1,1 +1,77 @@
-<p>about-text works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-7 order-2 order-md-1 mt-5 pt-md-5">
+      <h3>
+        I am a Web Developer, with a passion for learning. I'm experienced in Angular,
+        ReactJS, C#, SQL, JavaScript, Typescript, HTML, CSS and Sass. I'd love to work with you!
+      </h3>
+      <div class='mt-3'>
+        <a href="../../../assets/pdf/ChristyEangFeb2024.pdf" target="_blank" class="btn btn-outline-light ml-2 mb-4">
+          My Resume
+        </a>
+      </div>
+      <div class="mb-2">
+        <a aria-label="Christy's Github" target="_blank" [href]='UrlSegments[url.GitHub]'>
+          <i class="icons fab fa-github-alt fa-2x"></i>
+        </a>
+        <a aria-label="Christy's LinkedIn" target="_blank" [href]='UrlSegments[url.LinkedIn]' class="ml-3">
+          <i class="icons fab fa-linkedin-in fa-2x"></i>
+        </a>
+        <a aria-label="Christy's Instagram" target="_blank" [href]='UrlSegments[url.Instagram]'
+          class="ml-3">
+          <i class="icons fab fa-instagram  fa-2x"></i>
+        </a>
+        <a aria-label="Christy's Facebook" target="_blank" [href]='UrlSegments[url.Facebook]' class="ml-3">
+          <i class="icons fab fa-facebook fa-2x"></i>
+        </a>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-5 order-1 order-md-2 center">
+      <img src="../../../assets/images/christypic.png" class="myFace" alt="A picture of Christy in a grey polo.">
+    </div>
+
+  </div>
+  <div class="row border-bottom border-top center mb-4">
+    <div class="col-12 col-lg-10 my-4">
+      <h2>My Time To Code.</h2>
+      <a href="https://codestackacademy.org/" target="_blank" class="mb-1 csa"><b>CodeStack Academy</b></a>
+      <p>
+        As a Codestack Alumna, I learned how to read, write, and love code. I was challenged day in and day
+        out
+        and I persevered through the long nights and exciting group projects. Due to the Pandemic, Codestack
+        was
+        moved fully online and because of that, communication has become such an important part of the
+        process.
+        I cannot envision my life without coding anymore. It has been such an important and amazing part of
+        my
+        life. Codestack is a 9 month intensive program, Mon-Fri 9am-4pm, so I was completely emmersed in code.
+      </p>
+      <p>
+        I've been really into Angular, so I decided to put my portfolio together in Angular!
+        I enjoy using HTML5, CSS3, and JavaScript, but I find it so enjoyable to learn new things and have that
+        "Aha!"
+        moment in those new things! Picking up new things is a challenge, but challenges make life so much more
+        interesting!
+        I love learning new things and meeting new people and I cannot wait to meet you!
+      </p>
+      <button (click)="open(content)" class="btn btn-outline-light mb-3">About Christy</button>
+    </div>
+  </div>
+</div>
+
+
+<ng-template #content let-modal>
+  <div class="blue-bg modal-header">
+    <h4>{{this.about.name}}</h4>
+    <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+      <span class="white" aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="blue-bg modal-body">
+
+    <p [innerHTML]="about.long"></p>
+  </div>
+  <div class="blue-bg modal-footer">
+    <button class="btn btn-outline-light" (click)="modal.dismiss('Cross click')">{{about.btn}}</button>
+  </div>
+</ng-template>

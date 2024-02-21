@@ -1,12 +1,14 @@
-.btn-outline-light{
-    border-width: 2px !important;
-    color: white !important;
+.btn-outline-light {
+  border-width: 2px !important;
+  color: white !important;
 }
-.btn-outline-light:hover{
-    border-width: 1px !important;
-    background-color: #19243A;
-    color: white;
+
+.btn-outline-light:hover {
+  border-width: 1px !important;
+  background-color: #19243A;
+  color: white;
 }
-.big{
-    font-size: 40px;
+
+.big {
+  font-size: 40px;
 }

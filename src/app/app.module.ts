@@ -16,6 +16,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from "@angular/common/http";
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { IconsComponent } from './components/icons/icons.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
     FooterComponent,
     HomeTextComponent,
     AboutTextComponent,
-    HeroImgComponent
+    HeroImgComponent,
+    IconsComponent,
   ],
   imports: [
     BrowserModule,

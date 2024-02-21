@@ -1,49 +1,87 @@
-/* You can add global styles to this file, and also import other style files */
-body{
-    background: linear-gradient(#000000,10%, #0d1117);
-    /* .bg{ */
-    /* } */
-    /* #141c2688 */
-    /* background: linear-gradient(132deg #ec5118cb, #1665c1);
-    background-size: 400% 400%;
-    animation: BackgroundGradient 30s ease infinite; */
-    font-family: 'Xanh Mono', monospace;
-    color: white;
+body {
+  background: linear-gradient(#000000, 10%, #0d1117);
+  font-family: 'Xanh Mono', monospace;
+  color: white;
 }
-/* @keyframes BackgroundGradient{
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-} */
-.center{
-    display: flex;
-    justify-content: center;
+
+.center {
+  display: flex;
+  justify-content: center;
 }
-.end{
-    display: flex;
-    justify-content: flex-end;
+
+.end {
+  display: flex;
+  justify-content: flex-end;
 }
-.stretch{
-    display: flex;
-    justify-content: stretch;
+
+.stretch {
+  display: flex;
+  justify-content: stretch;
 }
-.btn-light:hover{
-    background: none;
-    border: white 1px solid;
-    color: white;
+
+.btn-light:hover {
+  background: none;
+  border: white 1px solid;
+  color: white;
 }
-.blue{
-    color:#0d1117;
+
+.blue {
+  color: #0d1117;
 }
-.blue-bg{
-    background-color: #0d1117;
+
+.blue-bg {
+  background-color: #0d1117;
 }
-.white{
-    color:white;
+
+.white {
+  color: white;
+}
+
+.fontbig {
+  font-size: 50px;
+}
+
+.icons {
+  color: white;
+}
+
+.icons:hover {
+  color: #D1F5FF;
+}
+
+.codewars {
+  width: 30px;
+  height: 30px;
+  background-image: url(./assets/images/codewarslogo.png);
+}
+
+.codewars:hover {
+  background-image: url(./assets/images/codewarsBlue.png);
+}
+
+@media only screen and (max-width: 420px) {
+  .myFace {
+    width: 300px;
+    height: auto;
+  }
+}
+
+.csa {
+  color: #D1F5FF;
+  /* text-decoration: dashed !important; */
+  text-decoration: underline;
+}
+
+.csa:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.x {
+  font-size: 3rem;
+}
+
+.ar {
+  display: flex;
+  justify-content: space-around;
 }
