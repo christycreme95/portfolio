@@ -14,6 +14,7 @@ export class HomeComponent implements OnInit {
   constructor(private modalService: NgbModal) { }
 
   ngOnInit(): void {
+    console.log('i work')
   }
 
   about: IAboutMe = ABOUT_ME;
