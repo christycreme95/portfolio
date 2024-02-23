@@ -78,6 +78,16 @@ export const PROJECTS : IProjects[] = [
     btn:'SEIS',
   },
   {
+    name:'Women Together Intl',
+    pic2: '../../../assets/images/proj/womenTogetherMembership.png',
+    picture: '../../../assets/images/proj/womenTogetherRuth.png',
+    description: 'Updating and maintaining the Women Together Intl.',
+    src: 'https://www.womentogetherintl.org/',
+    keywords: 'html, css, bootstrap, associate web developer',
+    long: 'I\'m one of the developers that maintain this site through CodeStack. It\'s a nice static site for a team that want other women to succeed. Their focus is to unite women and it\'s such an honor to be able to work on a site with that purpose!',
+    btn:'Women Together Intl',
+  },
+  {
     name:'Mayor Of Stockton',
     pic2: '../../../assets/images/proj/mayor2.jpg',
     picture: '../../../assets/images/proj/mayorStockton.png',
